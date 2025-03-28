@@ -24,6 +24,5 @@ export FOX_VERSION="R11.1_1"
 export FOX_BUILD_TYPE="Beta"
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_BUILD_DEVICE=stone
-export FOX_VERSION="R11.2_0"
-export FOX_BUILD_TYPE="Beta"
+export FOX_VIRTUAL_AB_DEVICE=1
 lunch twrp_stone-eng && mka adbd bootimage
