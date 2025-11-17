@@ -17,12 +17,10 @@
 #
 # 	Please maintain this if you use this script or any part of it
 #
+# Clone Kernel
+git clone https://github.com/bittencourtjulival/eclipse_kernel_xiaomi_stone -b 16 kernel/xiaomi/stone --depth=1
 
-# OrangeFox
-export LC_ALL="C"
-export FOX_VERSION="R11.1_1"
-export FOX_BUILD_TYPE="Beta"
 export ALLOW_MISSING_DEPENDENCIES=true
-export FOX_BUILD_DEVICE=stone
-export FOX_VIRTUAL_AB_DEVICE=1
-lunch twrp_stone-eng && mka adbd bootimage
+
+# Build command (uncomment to use)
+lunch twrp_stone-eng && mka vendorbootimage
