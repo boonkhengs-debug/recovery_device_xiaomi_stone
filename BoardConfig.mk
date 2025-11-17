@@ -176,6 +176,14 @@ TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone28/temp"
 TW_BATTERY_SYSFS_WAIT_SECONDS := 5
 TW_BACKUP_EXCLUSIONS := /data/fonts
 
+# SHRP Flags
+SHRP_DEVICE_CODE := stone
+SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
+SHRP_DEVICE_TYPE := A/B
+SHRP_AB := true
+SHRP_INTERNAL := /RECOVERY_SDCARD_ON_DATA
+SHRP_OTG := /usb_otg
+
 # StatusBar
 TW_STATUS_ICONS_ALIGN := center
 TW_CUSTOM_CPU_POS := "250"
@@ -185,6 +193,7 @@ TW_CUSTOM_BATTERY_POS := "790"
 # Maintainer
 TW_DEVICE_VERSION := bittencourtjulival
 OF_MAINTAINER := bittencourtjulival
+SHRP_MAINTAINER := bittencourtjulival
 
 # Ofox flags
 OF_FLASHLIGHT_ENABLE := 0
