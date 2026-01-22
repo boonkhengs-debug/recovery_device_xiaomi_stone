@@ -18,7 +18,7 @@
 # 	Please maintain this if you use this script or any part of it
 #
 # Clone Kernel
-git clone https://github.com/bittencourtjulival/eclipse_kernel_xiaomi_stone -b 16 kernel/xiaomi/stone --depth=1
+git clone https://github.com/boonkhengs-debug/eclipse_kernel_xiaomi_stone -b 16 kernel/xiaomi/stone --depth=1
 
 export ALLOW_MISSING_DEPENDENCIES=true
 
